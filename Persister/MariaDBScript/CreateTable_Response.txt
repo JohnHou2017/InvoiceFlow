@@ -1,0 +1,12 @@
+CREATE TABLE `response` (
+	`documentNumber` VARCHAR(50) NOT NULL,
+	`originalDocumentNumber` VARCHAR(50) NULL DEFAULT NULL COMMENT 'invoice number',
+	`status` VARCHAR(50) NULL DEFAULT NULL,
+	`date` BIGINT(20) NULL DEFAULT NULL,
+	`amount` FLOAT NULL DEFAULT NULL,
+	`currency` VARCHAR(50) NULL DEFAULT NULL,
+	PRIMARY KEY (`documentNumber`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+;

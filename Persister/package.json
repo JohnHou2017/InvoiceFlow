@@ -1,0 +1,10 @@
+{
+  "name": "persister",
+  "version": "0.0.0",
+  "description": "Persister",
+  "main": "Persister.js",
+  "author": {
+    "name": "John"
+  },
+  "dependencies": {}
+}

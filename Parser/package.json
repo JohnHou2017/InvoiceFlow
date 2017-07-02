@@ -1,0 +1,9 @@
+{
+  "name": "parser",
+  "version": "0.0.0",
+  "description": "Parser",
+  "main": "Parser.js",
+  "author": {
+    "name": "John"
+  }
+}

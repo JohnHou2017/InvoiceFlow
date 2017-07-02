@@ -1,0 +1,9 @@
+{
+  "name": "collector",
+  "version": "0.0.0",
+  "description": "Collector",
+  "main": "Colletor.js",
+  "author": {
+    "name": "John"
+  }
+}

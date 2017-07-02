@@ -1,0 +1,10 @@
+CREATE TABLE `invoice` (
+	`documentNumber` VARCHAR(50) NOT NULL COMMENT 'invoice number',
+	`date` BIGINT(20) NULL DEFAULT NULL,
+	`amount` FLOAT NULL DEFAULT NULL,
+	`currency` VARCHAR(50) NULL DEFAULT NULL,
+	PRIMARY KEY (`documentNumber`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+;

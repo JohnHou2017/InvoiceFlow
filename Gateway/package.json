@@ -1,0 +1,9 @@
+{
+  "name": "gateway",
+  "version": "0.0.0",
+  "description": "Gateway",
+  "main": "server.js",
+  "author": {
+    "name": "John"
+  }
+}
