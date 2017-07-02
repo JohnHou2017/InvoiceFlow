@@ -9,7 +9,7 @@ This application uses Node.js, RabbitMQ and MariaDB.
 
 Architecture:
 
-![alt tag](https://github.com/JohnHou2017/InvoiceFlow/blob/master/Gateway/Doc/ReporterOutput.png)
+![alt tag](https://github.com/JohnHou2017/InvoiceFlow/blob/master/Gateway/Doc/InvoiceFlowArchitecture.png)
 
 ## Dev Environment
 ```
@@ -26,6 +26,19 @@ Architecture:
 4. Reporter: a Nodejs application for invoice report.
 5. Gateway: a Nodejs server to dispatch and schedule message between above applications.
 ```
-## Result
+## Run
+```
+Start microservices and gateway in DOS:
+
+1. Collecter: node collector.js
+2. Parser: node parser.js
+3. Persister: node persister.js
+4. Reporter: node reporter.js
+5. Gateway: node gatway.js
+
+Start process in Browser: http://localhost:1336
+
+```
+## Run Result
 
 ![alt tag](https://github.com/JohnHou2017/InvoiceFlow/blob/master/Gateway/Doc/ReporterOutput.png)
