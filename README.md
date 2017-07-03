@@ -34,7 +34,7 @@ Start microservices and gateway in DOS:
 2. Parser: node parser.js
 3. Persister: node persister.js
 4. Reporter: node reporter.js
-5. Gateway: node gateway.js
+5. Gateway: node server.js
 
 Start process in Browser: http://localhost:1337
 
